@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(203, 34, 218);
+}
+.suraj{
+    /* display: none; */
+    width: 400px;
+    background: blueviolet;
+    border-radius: 150px;
+}
+input[type="text"]{
+   height: 50px; 
+   width: 260px;
+   margin-top: 50px;
+   border-radius: 20px 20px 20px;
+   border: 2px solid whitesmoke;color:rgb(36, 8, 8);
+   font-size: 25px;
+   font-weight: bold;
+   text-align: right;
+   padding-right: 30px;
+   background: linear-gradient(#d1dce0,#dfe6e9);
+}
+form.buttons{
+    width: 300px;
+    margin: 10px 25px 0 30px;
+    padding: 10px 0;
+}
+input[type="button"]{
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    font-size: 20px;
+    line-height: 55px;
+    border-radius: 15px 50px 30px;
+    border: 1px solid #d9d9d9; background: linear-gradient(#d9d9d9,#bfbfbf);
+}
+input[type="button"]:hover{
+    transition: .5s;
+    background: linear-gradient(#00ff00,#d10e0e);
+}
+input#clear{
+    background: #ff1a1a;
+    border: 1px solid #cc0000;
+    color:aqua
+}
+input#equal{
+    /* font-size: 20px; */
+    color: #cc0000;
+    background: #cd5c5c;
+    border: 1px solid #cd5c5c;
+}
+input#add{
+    background:#00ff00
+}
+input#zero{
+    background: #6c21cf;
+}
