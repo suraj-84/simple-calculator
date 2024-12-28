@@ -15,10 +15,11 @@ body{
 }
 .suraj{
     /* display: none; */
-    width: 400px;
+    /* width: 400px;
     background: blueviolet;
-    border-radius: 150px;
+    border-radius: 150px; */
 }
+
 input[type="text"]{
    height: 50px; 
    width: 260px;
